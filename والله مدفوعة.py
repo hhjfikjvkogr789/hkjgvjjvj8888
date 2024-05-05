@@ -1,7 +1,7 @@
 import os,requests,sys,time,datetime
 now = datetime.datetime.today()
 an = datetime.datetime.now()
-an2 = datetime.datetime(2024,5,10,00,0)
+an2 = datetime.datetime(2024,5,6,00,0)
 hours = (now.hour)
 if an > an2 or an == an2:
  print('\033[1;31mThe Date : '+ str(an))
